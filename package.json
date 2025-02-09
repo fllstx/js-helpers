@@ -1,0 +1,33 @@
+{
+	"name": "js-helpers",
+	"version": "1.0.0",
+	"description": "JavaScript helper function we use often at fullstax",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "vitest",
+		"docs": "jsdoc --configure .jsdoc.json --verbose",
+		"docs:serve": "live-server ./docs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/fllstx/js-helpers.git"
+	},
+	"keywords": [
+		"javascript",
+		"helpers"
+	],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/fllstx/js-helpers/issues"
+	},
+	"homepage": "https://github.com/fllstx/js-helpers#readme",
+	"prettier": "@fullstax/prettier-config",
+	"devDependencies": {
+		"@fullstax/prettier-config": "^1.0.2",
+		"jsdoc": "^4.0.4",
+		"live-server": "^1.2.2",
+		"vitest": "^3.0.5"
+	}
+}

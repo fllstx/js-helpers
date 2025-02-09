@@ -1,0 +1,20 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.detectIndentation": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"editor.wordWrapColumn": 80,
+	"editor.selectionClipboard": false,
+	"markdownlint.config": {
+		"line-length": false,
+		"no-hard-tabs": false
+	},
+	"[javascript]": {
+		"editor.formatOnSave": true
+	},
+	"[json]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

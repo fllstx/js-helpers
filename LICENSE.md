@@ -1,4 +1,4 @@
-MIT License
+# MIT License
 
 Copyright (c) 2025 fullstax GmbH & Co. KG
 
