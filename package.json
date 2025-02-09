@@ -11,11 +11,14 @@
 	"files": [
 		"lib",
 		"types",
-		"index.js"
+		"index.js",
+		"LICENSE.md",
+		"README.md"
 	],
 	"scripts": {
 		"test": "vitest",
 		"build": "npm run docs",
+		"release": "semantic-release",
 		"typescript": "npx -p typescript tsc",
 		"docs": "jsdoc --configure .jsdoc.json --verbose",
 		"docs:serve": "live-server ./docs/@fullstax/js-helpers"
@@ -37,6 +40,7 @@
 		"@fullstax/prettier-config": "^1.0.2",
 		"jsdoc": "^4.0.4",
 		"live-server": "^1.2.2",
+		"standard-version": "^9.5.0",
 		"vitest": "^3.0.5"
 	}
 }

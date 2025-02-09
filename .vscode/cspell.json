@@ -1,5 +1,13 @@
 {
 	"language": "en-GB",
-	"ignorePaths": [".vscode", "docs", "LICENSE", "README.md"],
-	"words": ["Durstenfeld", "fllstx", "Longname", "minami", "superluminary", "zzzzzzzzzzzzzzzz"]
+	"ignorePaths": [".*", "docs", "LICENSE", "README.md"],
+	"words": [
+		"analyzer",
+		"Durstenfeld",
+		"fllstx",
+		"Longname",
+		"minami",
+		"superluminary",
+		"zzzzzzzzzzzzzzzz"
+	]
 }
