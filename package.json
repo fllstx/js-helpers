@@ -1,13 +1,24 @@
 {
-	"name": "js-helpers",
+	"name": "@fullstax/js-helpers",
 	"version": "1.0.0",
 	"description": "JavaScript helper function we use often at fullstax",
 	"type": "module",
+	"author": "fullstax GmbH & Co. KG",
+	"license": "MIT",
 	"main": "index.js",
+	"source": "lib",
+	"types": "types",
+	"files": [
+		"lib",
+		"types",
+		"index.js"
+	],
 	"scripts": {
 		"test": "vitest",
+		"build": "npm run docs",
+		"typescript": "npx -p typescript tsc",
 		"docs": "jsdoc --configure .jsdoc.json --verbose",
-		"docs:serve": "live-server ./docs"
+		"docs:serve": "live-server ./docs/@fullstax/js-helpers"
 	},
 	"repository": {
 		"type": "git",
@@ -17,8 +28,6 @@
 		"javascript",
 		"helpers"
 	],
-	"author": "",
-	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/fllstx/js-helpers/issues"
 	},
