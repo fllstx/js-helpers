@@ -17,7 +17,7 @@
 	],
 	"scripts": {
 		"test": "vitest",
-		"build": "npm run docs",
+		"build": "npm run docs && npm run typescript",
 		"release": "semantic-release",
 		"typescript": "npx -p typescript tsc",
 		"docs": "jsdoc --configure .jsdoc.json --verbose",
@@ -38,9 +38,13 @@
 	"prettier": "@fullstax/prettier-config",
 	"devDependencies": {
 		"@fullstax/prettier-config": "^1.0.2",
+		"@semantic-release/commit-analyzer": "^13.0.1",
+		"@semantic-release/git": "^10.0.1",
+		"@semantic-release/npm": "^12.0.1",
+		"@semantic-release/release-notes-generator": "^14.0.3",
 		"jsdoc": "^4.0.4",
 		"live-server": "^1.2.2",
-		"standard-version": "^9.5.0",
+		"semantic-release": "^24.2.2",
 		"vitest": "^3.0.5"
 	}
 }
