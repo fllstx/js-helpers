@@ -1,1 +1,2 @@
-export * from './shuffle-array.js';
+export * from "./pick-random.js";
+export * from "./shuffle-array.js";
